@@ -15,7 +15,10 @@ const Navbar = ({totalItems}) => {
           <AppBar position='fixed' className={mergeClasses.appBar} color='inherit'>
               <Toolbar>
                   <Typography component={Link} to="/" variant='h6' className={classes.title} color='inherit'>
-                      <img  src={logo} alt='Commerce.js' height='25px' className={classes.image}/>
+                      <img  src={logo} alt='Commerce.js' height='25px' className={classes.image}/> 
+                      <Typography>
+                       E-Shop
+                      </Typography>
                   </Typography>
                   <div className={classes.grow}/>
                   {location.pathname=='/' && (<div className={classes.button}>
