@@ -9,7 +9,7 @@ const Cart = ({cart,handleUpdateCartQty,handleRemoveFromCart,handleEmptyCart}) =
 
 const EmptyCart = ()=>(
    <Typography variant="subtitle1">You have no item in your shoping cart 
-        <Link to="/" className={classes.link}> start addin some</Link>
+        <Link to="/" className={classes.link}> start adding Itemm to the cart</Link>
    </Typography>
 );
 
